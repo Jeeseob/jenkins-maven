@@ -1,7 +1,7 @@
 ---
 - name: build image and push to docker hub play
-  hosts: ansible_host
-  tasks:
+  hosts: k8s_host
+tasks:
   - name: remove image
     command: docker rmi jeeseob/my-hello-world
     ignore_errors: true

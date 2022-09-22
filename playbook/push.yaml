@@ -1,6 +1,6 @@
 ---
 - name: build image and push to docker hub play
-  hosts: k8s_host
+  hosts: k8s
   tasks:
   - name: remove image
     command: docker rmi jeeseob/my-hello-world

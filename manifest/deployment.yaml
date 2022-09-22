@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-hello-world-container
-        image: [dockerhub계정]my-hello-world
+        image: jeeseob/my-hello-world
         ports:
         - containerPort: 8080
           protocol: TCP
